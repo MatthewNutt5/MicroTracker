@@ -1,0 +1,4 @@
+# block directories with unnecessary files
+/kicad/source/mt-backups/
+/ccs/Debug/
+/ccs/.launches/
