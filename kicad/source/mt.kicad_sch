@@ -4636,7 +4636,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PTD904-1020K-A103:PTD904-1020K-A103"
+		(symbol "PTD902-2015F-A103:PTD902-2015F-A103"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4649,7 +4649,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "PTD904-1020K-A103"
+			(property "Value" "PTD902-2015F-A103"
 				(at 31.75 5.08 0)
 				(effects
 					(font
@@ -4658,7 +4658,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "PTD9041020KA103"
+			(property "Footprint" "PTD9022015FA103"
 				(at 31.75 -94.92 0)
 				(effects
 					(font
@@ -4668,7 +4668,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PTD90.pdf"
+			(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/54/ptd90-777943.pdf"
 				(at 31.75 -194.92 0)
 				(effects
 					(font
@@ -4678,7 +4678,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Res Carbon Film POT 10K Ohm 10% 1/40W 1(Mech)Turn 6mm (37.2 X 9.5 X 11.3mm) Pin Panel Mount/Through Hole"
+			(property "Description" "Bourns Audio Potentiometer 8-Gang, PTD902-2015F-A103"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4687,7 +4687,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "10.8"
+			(property "Height" "11.9"
 				(at 31.75 -394.92 0)
 				(effects
 					(font
@@ -4697,7 +4697,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "652-PTD904-1020KA103"
+			(property "Mouser Part Number" "652-PTD902-2015FA103"
 				(at 31.75 -494.92 0)
 				(effects
 					(font
@@ -4707,7 +4707,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTD904-1020K-A103?qs=9fn1gpisni798x2kl5SyJw%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTD902-2015F-A103?qs=X8nz4ozed5gCk5%2F1O4tbLA%3D%3D"
 				(at 31.75 -594.92 0)
 				(effects
 					(font
@@ -4727,7 +4727,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "PTD904-1020K-A103"
+			(property "Manufacturer_Part_Number" "PTD902-2015F-A103"
 				(at 31.75 -794.92 0)
 				(effects
 					(font
@@ -4737,10 +4737,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "PTD904-1020K-A103_1_1"
+			(symbol "PTD902-2015F-A103_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 30.48 -15.24)
+					(end 30.48 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4752,14 +4752,14 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "CCW_1"
+					(name "CW_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R11"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4777,7 +4777,7 @@
 							)
 						)
 					)
-					(number "R12"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4788,68 +4788,14 @@
 				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
-					(name "CW_1"
+					(name "CCW_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "CCW_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "WIPER_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "CW_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R23"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4860,14 +4806,14 @@
 				(pin passive line
 					(at 35.56 0 180)
 					(length 5.08)
-					(name "CCW_3"
+					(name "CW_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R31"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4878,14 +4824,14 @@
 				(pin passive line
 					(at 35.56 -2.54 180)
 					(length 5.08)
-					(name "WIPER_3"
+					(name "WIPER_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R32"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4896,68 +4842,14 @@
 				(pin passive line
 					(at 35.56 -5.08 180)
 					(length 5.08)
-					(name "CW_3"
+					(name "CCW_2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "R33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -7.62 180)
-					(length 5.08)
-					(name "CCW_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -10.16 180)
-					(length 5.08)
-					(name "WIPER_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -12.7 180)
-					(length 5.08)
-					(name "CW_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R43"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7532,8 +7424,8 @@
 		(uuid "3c464f59-b177-452f-b95c-8fb73918e484")
 	)
 	(no_connect
-		(at 280.67 113.03)
-		(uuid "48be1f23-cf13-431c-847e-da3644644b83")
+		(at 280.67 109.22)
+		(uuid "43ee9b8f-a002-4967-88c2-ebc082f01ed2")
 	)
 	(no_connect
 		(at 224.79 73.66)
@@ -7556,20 +7448,12 @@
 		(uuid "75e1c33b-90c3-4c3d-a115-f1f2ee4e005b")
 	)
 	(no_connect
-		(at 280.67 120.65)
-		(uuid "7d13c835-6814-4968-9ebd-af9f46a5f544")
-	)
-	(no_connect
 		(at 232.41 99.06)
 		(uuid "7f54f19d-0ec0-4613-b83d-0a97e946142f")
 	)
 	(no_connect
 		(at 491.49 81.28)
 		(uuid "8d2b7e52-7b5e-42de-b693-6cceaac40d0a")
-	)
-	(no_connect
-		(at 316.23 120.65)
-		(uuid "9cb30a32-b1dd-487e-941a-d66c8b682726")
 	)
 	(no_connect
 		(at 222.25 73.66)
@@ -7588,6 +7472,10 @@
 		(uuid "b1615c69-d054-4eeb-a5b9-53d317687cc0")
 	)
 	(no_connect
+		(at 316.23 109.22)
+		(uuid "c067760a-b33b-4125-a434-2de3972938f9")
+	)
+	(no_connect
 		(at 516.89 86.36)
 		(uuid "d9c6bee2-8eef-4d39-aa4d-30760780d8e8")
 	)
@@ -7598,10 +7486,6 @@
 	(no_connect
 		(at 157.48 237.49)
 		(uuid "fc13e4be-dcd9-4de2-86cf-93e9aa14470e")
-	)
-	(no_connect
-		(at 316.23 113.03)
-		(uuid "ff302229-65d3-4bd8-95fe-39c1d3e476f3")
 	)
 	(wire
 		(pts
@@ -7645,7 +7529,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 71.12) (xy 313.69 73.66)
+			(xy 313.69 71.12) (xy 313.69 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8705,6 +8589,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 72.39) (xy 279.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73487c7-f0fb-4b5b-8d4b-55face55c69a")
+	)
+	(wire
+		(pts
 			(xy 459.74 135.89) (xy 459.74 129.54)
 		)
 		(stroke
@@ -8785,7 +8679,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 87.63) (xy 279.4 88.9)
+			(xy 279.4 85.09) (xy 279.4 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8925,7 +8819,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 87.63) (xy 313.69 88.9)
+			(xy 313.69 85.09) (xy 313.69 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8952,16 +8846,6 @@
 			(type default)
 		)
 		(uuid "d629c4ec-241d-49c5-b3cb-b872947b04a0")
-	)
-	(wire
-		(pts
-			(xy 279.4 72.39) (xy 279.4 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6d60f16-7539-449f-9e6d-b7879756e96b")
 	)
 	(wire
 		(pts
@@ -9193,72 +9077,6 @@
 		)
 		(uuid "ff1b7e03-e5c3-4073-a0dc-293e0814d132")
 	)
-	(global_label "RV3A"
-		(shape output)
-		(at 316.23 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0394157f-6790-4d22-a91a-e1d003137f82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.8719 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RV4B"
-		(shape input)
-		(at 313.69 87.63 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05b1d880-6fde-43c1-810d-1b6843116e43")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 79.8067 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RV3B"
-		(shape input)
-		(at 279.4 87.63 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0be2dafc-8174-4a9e-821b-92cf3490234b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.4 79.8067 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DACR"
 		(shape input)
 		(at 217.17 69.85 180)
@@ -9305,29 +9123,29 @@
 	)
 	(global_label "RV2B"
 		(shape output)
-		(at 280.67 118.11 180)
+		(at 316.23 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "35283f25-1f45-4fde-b531-ae791b2aca88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.8467 118.11 0)
+			(at 324.0533 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "RV1B"
 		(shape output)
-		(at 280.67 110.49 180)
+		(at 280.67 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9337,34 +9155,12 @@
 		)
 		(uuid "3b18cff9-cd66-4c77-95dd-63067e282b4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.8467 110.49 0)
+			(at 272.8467 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RV4A"
-		(shape output)
-		(at 316.23 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f961b49-6187-4757-827d-59df4e12f9ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.8719 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9431,28 +9227,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RV4B"
-		(shape output)
-		(at 316.23 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "78d095dc-6877-4a4c-8663-fb65fdd39fe5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 324.0533 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -9547,7 +9321,7 @@
 	)
 	(global_label "RV1A"
 		(shape output)
-		(at 280.67 107.95 180)
+		(at 280.67 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9557,7 +9331,7 @@
 		)
 		(uuid "98365a9f-2102-4db2-b125-02535a1df5a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.0281 107.95 0)
+			(at 273.0281 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,28 +9385,6 @@
 			)
 		)
 	)
-	(global_label "RV4A"
-		(shape input)
-		(at 313.69 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a0a5f0c4-be6e-4af5-b9ff-f17b5625491a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 81.3019 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DACL"
 		(shape input)
 		(at 217.17 53.34 180)
@@ -9655,9 +9407,9 @@
 			)
 		)
 	)
-	(global_label "RV3B"
+	(global_label "RV2A"
 		(shape output)
-		(at 316.23 110.49 0)
+		(at 316.23 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9665,58 +9417,14 @@
 			)
 			(justify left)
 		)
-		(uuid "cef30b95-4472-40e0-bce0-5c6ef98f0dcb")
+		(uuid "da3ee11e-ba90-4aa1-9e0b-307e4e84e691")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 324.0533 110.49 0)
+			(at 323.8719 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RV2A"
-		(shape output)
-		(at 280.67 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "da3ee11e-ba90-4aa1-9e0b-307e4e84e691")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.0281 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RV3A"
-		(shape input)
-		(at 279.4 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dcb3dc11-2334-47b6-94f2-ebfae2056288")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.4 81.3019 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10292,6 +10000,147 @@
 		)
 	)
 	(symbol
+		(lib_id "PTD902-2015F-A103:PTD902-2015F-A103")
+		(at 280.67 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22b8c495-01b0-4f75-a557-51bb7b6417f8")
+		(property "Reference" "VR1"
+			(at 298.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTD902-2015F-A103"
+			(at 298.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PTD9022015FA103"
+			(at 312.42 204.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/54/ptd90-777943.pdf"
+			(at 312.42 304.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bourns Audio Potentiometer 8-Gang, PTD902-2015F-A103"
+			(at 280.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "11.9"
+			(at 312.42 504.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-PTD902-2015FA103"
+			(at 312.42 604.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTD902-2015F-A103?qs=X8nz4ozed5gCk5%2F1O4tbLA%3D%3D"
+			(at 312.42 704.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 312.42 804.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTD902-2015F-A103"
+			(at 312.42 904.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "NOTE" "USE PTD902-1025K-A103 INSTEAD, THIS IS JUST FOR SYMBOL AND FOOTPRINT"
+			(at 280.67 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "73b0c1d9-295d-4205-bf84-f04e9ed44eef")
+		)
+		(pin "2"
+			(uuid "6c6ed6ad-c4b2-49e7-a102-f4cbf5a8692e")
+		)
+		(pin "5"
+			(uuid "36d72452-ab7f-4d83-94b5-74639e6403b7")
+		)
+		(pin "3"
+			(uuid "dac59653-a956-4018-97ef-51d88831aa56")
+		)
+		(pin "1"
+			(uuid "47a177be-9c88-4a1f-b51a-6c22e319e462")
+		)
+		(pin "6"
+			(uuid "24ca5ba8-835d-4924-a074-b1fd57d2982b")
+		)
+		(instances
+			(project ""
+				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
+					(reference "VR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 350.52 67.31 90)
 		(unit 1)
@@ -10721,6 +10570,82 @@
 			(project ""
 				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
 					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 313.69 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c14b5ed-ddd5-4503-8dc0-1e0847f3fac5")
+		(property "Reference" "R12"
+			(at 307.34 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 309.88 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 314.706 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 313.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25744"
+			(at 313.69 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9bda7aa-9f4f-4b50-8ea6-6d46453cf158")
+		)
+		(pin "2"
+			(uuid "32419233-1c26-48d1-9ad4-cc0855b26666")
+		)
+		(instances
+			(project "mt"
+				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14248,156 +14173,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PTD904-1020K-A103:PTD904-1020K-A103")
-		(at 280.67 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b637cdcb-f3f5-4774-9f97-4acd7f671a51")
-		(property "Reference" "VR1"
-			(at 298.45 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PTD904-1020K-A103"
-			(at 298.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PTD904-1020K-A103:PTD9041020KA103"
-			(at 312.42 202.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PTD90.pdf"
-			(at 312.42 302.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Res Carbon Film POT 10K Ohm 10% 1/40W 1(Mech)Turn 6mm (37.2 X 9.5 X 11.3mm) Pin Panel Mount/Through Hole"
-			(at 280.67 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.8"
-			(at 312.42 502.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "652-PTD904-1020KA103"
-			(at 312.42 602.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PTD904-1020K-A103?qs=9fn1gpisni798x2kl5SyJw%3D%3D"
-			(at 312.42 702.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 312.42 802.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PTD904-1020K-A103"
-			(at 312.42 902.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "R41"
-			(uuid "e42ff9ab-2438-4618-9f12-83f03bf49de1")
-		)
-		(pin "R12"
-			(uuid "0469c0a4-0a33-4621-919f-ab8524d0b7fe")
-		)
-		(pin "R22"
-			(uuid "73b1b81e-1793-4b7a-a152-ffff389d060d")
-		)
-		(pin "R31"
-			(uuid "aaf3054d-ab98-4847-8efe-9645544b7d4f")
-		)
-		(pin "R13"
-			(uuid "75417642-d454-4ed7-81cb-4d38a19a6a98")
-		)
-		(pin "R21"
-			(uuid "5bad8ed2-4e9f-40bd-9da4-f544f29b6297")
-		)
-		(pin "R11"
-			(uuid "f23bb36a-e717-486e-99a3-99ffd31bf80a")
-		)
-		(pin "R23"
-			(uuid "ddfb063b-2eba-4f89-b8f4-41e58a062aab")
-		)
-		(pin "R42"
-			(uuid "ca7a7022-1765-4f87-abba-eb492ab48c36")
-		)
-		(pin "R32"
-			(uuid "896faf67-cdc0-4211-9237-89771836a89f")
-		)
-		(pin "R43"
-			(uuid "bc757346-9f24-432e-9a4f-d5f3ef9f3d42")
-		)
-		(pin "R33"
-			(uuid "72360235-bb2e-43d7-b1fc-6bac7d9c9a99")
-		)
-		(instances
-			(project ""
-				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
-					(reference "VR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RT9167A-33GB:RT9167A-33GB")
 		(at 463.55 55.88 0)
 		(unit 1)
@@ -15239,6 +15014,82 @@
 			(project ""
 				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 279.4 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc91cbb4-dc35-4f1a-a628-a9f2c0704ef8")
+		(property "Reference" "R11"
+			(at 285.75 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 283.21 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 278.384 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 279.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25744"
+			(at 279.4 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81f8e6f0-d507-44e2-8caa-112fb0d13e99")
+		)
+		(pin "2"
+			(uuid "e3ec96c0-8a4c-4701-b87a-10cf0f77bdc4")
+		)
+		(instances
+			(project "mt"
+				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
+					(reference "R11")
 					(unit 1)
 				)
 			)
