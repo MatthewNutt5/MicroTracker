@@ -6700,7 +6700,7 @@
 	)
 	(text "Regulation"
 		(exclude_from_sim no)
-		(at 538.226 43.434 0)
+		(at 537.972 43.434 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6731,6 +6731,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c76c905-5091-4be4-9828-6b512ee93f56")
+	)
+	(junction
+		(at 505.46 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49fa6dcd-a245-4ea4-a912-9149f2fabe30")
 	)
 	(junction
 		(at 478.79 151.13)
@@ -6787,28 +6793,22 @@
 		(uuid "b2710653-5984-488d-8311-70b0b6a34055")
 	)
 	(junction
+		(at 454.66 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca6174f6-6349-4d7e-b43f-cf73cfdb4ab9")
+	)
+	(junction
 		(at 474.98 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbe81aca-9b54-4086-9809-ccd9c9a58d1c")
 	)
 	(junction
-		(at 454.66 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4a9d02d-e36c-492d-be52-6c497256aefc")
-	)
-	(junction
 		(at 482.6 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd90191d-dc43-4fbc-9ca4-e0428a9e45e6")
-	)
-	(junction
-		(at 505.46 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0b920ae-0591-4a30-8ab6-ff9aaa68b7c4")
 	)
 	(junction
 		(at 454.66 76.2)
@@ -7020,16 +7020,6 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 83.82) (xy 463.55 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "369728ea-b608-4d00-9512-7553cea1054b")
-	)
-	(wire
-		(pts
 			(xy 450.85 127) (xy 450.85 153.67)
 		)
 		(stroke
@@ -7077,16 +7067,6 @@
 			(type default)
 		)
 		(uuid "404e0712-29e2-4513-be96-f993d54a9daf")
-	)
-	(wire
-		(pts
-			(xy 502.92 76.2) (xy 505.46 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "430f59aa-497d-4f15-b572-73ae2eb8f54e")
 	)
 	(wire
 		(pts
@@ -7350,7 +7330,7 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 76.2) (xy 509.27 76.2)
+			(xy 502.92 76.2) (xy 505.46 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7460,6 +7440,16 @@
 	)
 	(wire
 		(pts
+			(xy 454.66 83.82) (xy 463.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd2dea9-764c-4cdf-972f-4c397fc7f421")
+	)
+	(wire
+		(pts
 			(xy 490.22 127) (xy 491.49 127)
 		)
 		(stroke
@@ -7557,6 +7547,16 @@
 			(type default)
 		)
 		(uuid "b9c9823c-262f-49fa-ab37-58f3f06e7801")
+	)
+	(wire
+		(pts
+			(xy 505.46 76.2) (xy 509.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb721b7c-601e-4418-907a-152834e03e85")
 	)
 	(wire
 		(pts
@@ -7875,85 +7875,6 @@
 			(project "mt"
 				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 505.46 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "231efb3a-77ca-403c-98b0-e9a8be648940")
-		(property "Reference" "C7"
-			(at 509.27 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 509.27 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 506.4252 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 505.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 505.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C23733"
-			(at 505.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4370aa7a-8f13-4067-a8c6-727bd070f134")
-		)
-		(pin "2"
-			(uuid "c1921f72-2890-4895-807d-5ee6a4b66bb3")
-		)
-		(instances
-			(project "mt"
-				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8346,6 +8267,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2861720"
+			(at 453.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "02068036-51d1-4f6e-b58a-b5ec55cb3a8c")
 		)
@@ -8566,6 +8496,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2071163"
+			(at 491.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf4bfe9d-19f7-44aa-b5b2-e372466989e8")
 		)
@@ -8761,6 +8700,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C3682679"
+			(at 462.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "863f48fd-6805-4605-93c3-330bdcb7e678")
 		)
@@ -8816,7 +8764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 496.2652 67.31 0)
 			(effects
 				(font
@@ -8834,7 +8782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C0G for filtering"
 			(at 495.3 63.5 0)
 			(effects
 				(font
@@ -8843,7 +8791,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1525"
+		(property "JLCPCB" "C97946"
 			(at 495.3 63.5 0)
 			(effects
 				(font
@@ -9029,7 +8977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "47u"
 			(at 448.31 81.2799 0)
 			(effects
 				(font
@@ -9038,7 +8986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 445.4652 83.82 0)
 			(effects
 				(font
@@ -9056,7 +9004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X5R for decoupling"
 			(at 444.5 80.01 0)
 			(effects
 				(font
@@ -9065,7 +9013,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C59461"
+		(property "JLCPCB" "C16780"
 			(at 444.5 80.01 0)
 			(effects
 				(font
@@ -9323,6 +9271,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2861720"
+			(at 508 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "99baba98-04ff-40d7-98f2-d64bd7c581df")
 		)
@@ -9540,85 +9497,6 @@
 			(project "mt"
 				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 505.46 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5da1ddef-00b5-40a5-bbca-8c7a57f7c263")
-		(property "Reference" "C4"
-			(at 509.27 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 509.27 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 506.4252 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 505.46 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 505.46 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C23733"
-			(at 505.46 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21afdbc4-59e3-48f5-a416-051ed767864c")
-		)
-		(pin "2"
-			(uuid "40d27613-1978-4be9-8f39-1d30a34db602")
-		)
-		(instances
-			(project "mt"
-				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10353,7 +10231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 478.79 205.7399 0)
 			(effects
 				(font
@@ -10362,7 +10240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 475.9452 208.28 0)
 			(effects
 				(font
@@ -10380,7 +10258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X5R for decoupling"
 			(at 474.98 204.47 0)
 			(effects
 				(font
@@ -10389,7 +10267,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C23733"
+		(property "JLCPCB" "C19702"
 			(at 474.98 204.47 0)
 			(effects
 				(font
@@ -10579,7 +10457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 497.5352 120.65 0)
 			(effects
 				(font
@@ -10597,7 +10475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C0G for filtering"
 			(at 496.57 116.84 0)
 			(effects
 				(font
@@ -10606,7 +10484,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1525"
+		(property "JLCPCB" "C97946"
 			(at 496.57 116.84 0)
 			(effects
 				(font
@@ -10734,6 +10612,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C424093"
+			(at 478.79 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56fd1c16-ca92-438d-9007-d28fd1fb2b64")
 		)
@@ -10753,6 +10640,85 @@
 			(project ""
 				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
 					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 505.46 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af608258-dcb4-428d-ba8b-4e735832796c")
+		(property "Reference" "C11"
+			(at 509.27 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 509.27 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 506.4252 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 505.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "X5R for decoupling"
+			(at 505.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C19702"
+			(at 505.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e61c9560-dccf-4879-bb8a-447c79bc9955")
+		)
+		(pin "2"
+			(uuid "cee06044-fab4-4f4c-bd90-4864f92f03e9")
+		)
+		(instances
+			(project "mt"
+				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11009,6 +10975,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C113513"
+			(at 463.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11391,84 +11366,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 454.66 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1f69864-0d82-44a6-887c-793715371b6a")
-		(property "Reference" "C5"
-			(at 458.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 458.47 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 455.6252 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 454.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 454.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C59461"
-			(at 454.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ec7cecd-ea86-4b09-97ad-8352b0a543a1")
-		)
-		(pin "2"
-			(uuid "d0fc3f44-d830-4e00-9bf7-2d971b86bb46")
-		)
-		(instances
-			(project "mt"
-				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 495.3 80.01 0)
 		(unit 1)
@@ -11595,6 +11492,85 @@
 			(project "mt"
 				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 505.46 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c81f4568-75b3-426c-81b2-4271622da535")
+		(property "Reference" "C10"
+			(at 509.27 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 509.27 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 506.4252 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 505.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 505.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C19702"
+			(at 505.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6782a8d7-8a7a-448d-a9f1-8b302ca1a68b")
+		)
+		(pin "2"
+			(uuid "5f9fcc95-2bd3-4b90-85d1-5d34e5711f76")
+		)
+		(instances
+			(project "mt"
+				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -11804,8 +11780,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d25deff0-dd1f-46b6-99fb-448753d030a7")
-		(property "Reference" "C1"
+		(uuid "d4cbdf60-c710-4a0e-8f26-79fec6053058")
+		(property "Reference" "C9"
 			(at 511.81 201.9299 0)
 			(effects
 				(font
@@ -11814,7 +11790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 511.81 204.4699 0)
 			(effects
 				(font
@@ -11823,7 +11799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 508.9652 207.01 0)
 			(effects
 				(font
@@ -11841,7 +11817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "X5R for decoupling"
 			(at 508 203.2 0)
 			(effects
 				(font
@@ -11850,7 +11826,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C23733"
+		(property "JLCPCB" "C19702"
 			(at 508 203.2 0)
 			(effects
 				(font
@@ -11860,15 +11836,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "19c75915-6897-41e9-9993-5d4dd9d90d85")
+			(uuid "ab8732a4-f54e-48d9-bf11-cdbfb48b19a3")
 		)
 		(pin "2"
-			(uuid "886e9449-12b0-4bdb-a8ef-5ce80898be23")
+			(uuid "59dbacbc-a584-4f8f-9511-be44631217d4")
 		)
 		(instances
-			(project ""
+			(project "mt"
 				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
-					(reference "C1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -12443,6 +12419,85 @@
 			(project "mt"
 				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 454.66 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f90a28b9-eb51-4433-9a2d-5837afd564ec")
+		(property "Reference" "C7"
+			(at 458.47 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 458.47 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 455.6252 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 454.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "X5R for decoupling"
+			(at 454.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C16780"
+			(at 454.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9381b59b-daaf-4fd3-ba82-455669dc249e")
+		)
+		(pin "2"
+			(uuid "f54e4454-7bd6-422b-b8ec-1047bbafde44")
+		)
+		(instances
+			(project "mt"
+				(path "/db23e789-4b3a-4d38-b91c-0bc420bb4492"
+					(reference "C7")
 					(unit 1)
 				)
 			)

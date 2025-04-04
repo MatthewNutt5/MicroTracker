@@ -1,4 +1,6 @@
 # block directories with unnecessary files
 /kicad/source/mt-backups/
+/kicad/source/*.lck
+/kicad/source/#auto_saved_files#
 /ccs/Debug/
 /ccs/.launches/
