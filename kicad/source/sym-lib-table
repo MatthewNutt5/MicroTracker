@@ -17,4 +17,5 @@
   (lib (name "BQ29728DSER")(type "KiCad")(uri "C:/Users/Matthew/Documents/MicroTracker/kicad/lib/BQ29728DSER/BQ29728DSER.kicad_sym")(options "")(descr ""))
   (lib (name "PTD904-1020K-A103")(type "KiCad")(uri "C:/Users/Matthew/Documents/MicroTracker/kicad/lib/PTD904-1020K-A103/PTD904-1020K-A103.kicad_sym")(options "")(descr ""))
   (lib (name "PTV09A-4020F-C103")(type "KiCad")(uri "C:/Users/Matthew/Documents/MicroTracker/kicad/lib/PTV09A-4020F-C103/PTV09A-4020F-C103.kicad_sym")(options "")(descr ""))
+  (lib (name "PTV112-4420A-C104")(type "KiCad")(uri "C:/Users/Matthew/Documents/MicroTracker/kicad/lib/PTV112-4420A-C104/PTV112-4420A-C104.kicad_sym")(options "")(descr ""))
 )
