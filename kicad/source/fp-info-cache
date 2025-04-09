@@ -1,4 +1,4 @@
-25242087323346341
+25245575696969271
 694106301002
 694106301002_1
 694106301002
@@ -13,6 +13,13 @@ Undefined or Miscellaneous
 0
 5
 5
+3557-2
+3557-2
+3557-2
+Connector
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94597,6 +94604,13 @@ Integrated Circuit
 0
 8
 8
+TLV74333PDBVR
+SOT95P280X145-5N
+TLV74333PDBVR
+Integrated Circuit
+0
+5
+5
 TPS613222ADBVR
 SOT95P280X145-5N
 DBV (R-PDSO-G5)
