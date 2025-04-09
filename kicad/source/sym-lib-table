@@ -20,4 +20,5 @@
   (lib (name "PTV112-4420A-C104")(type "KiCad")(uri "C:/Users/Matthew/Documents/MicroTracker/kicad/lib/PTV112-4420A-C104/PTV112-4420A-C104.kicad_sym")(options "")(descr ""))
   (lib (name "PTD902-2015F-A103")(type "KiCad")(uri "C:/Users/Matthew/Documents/MicroTracker/kicad/lib/PTD902-2015F-A103/PTD902-2015F-A103.kicad_sym")(options "")(descr ""))
   (lib (name "TLV74333PDBVR")(type "KiCad")(uri "C:/Users/Matthew/Documents/MicroTracker/kicad/lib/TLV74333PDBVR/TLV74333PDBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "3557-2")(type "KiCad")(uri "C:/Users/Matthew/Documents/MicroTracker/kicad/lib/3557-2/3557-2.kicad_sym")(options "")(descr ""))
 )
