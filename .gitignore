@@ -1,8 +1,8 @@
 # don't track unnecessary files
-/kicad/source/mt-backups/
-/kicad/source/*.lck
-/kicad/source/fp-info-cache
-/kicad/source/mt.kicad_prl
-/kicad/source/#auto_saved_files#
-/ccs/Debug/
-/ccs/.launches/
+kicad/source/mt-backups/
+kicad/source/*.lck
+kicad/source/fp-info-cache
+kicad/source/mt.kicad_prl
+kicad/source/#auto_saved_files#
+ccs/Debug/
+ccs/.launches/
