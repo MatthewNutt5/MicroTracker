@@ -463,7 +463,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -645,6 +645,22 @@
     [
       "db23e789-4b3a-4d38-b91c-0bc420bb4492",
       "Root"
+    ],
+    [
+      "03ef4c3f-73dc-4bec-b553-714c6435815c",
+      "Rank 0"
+    ],
+    [
+      "0e15e792-8388-4977-901f-4d8345d6787f",
+      "Rank 1"
+    ],
+    [
+      "f74ac1d3-b3dd-47cd-bbfd-02d2bee43cf6",
+      "Rank 2"
+    ],
+    [
+      "ea373b1f-510f-474c-ad60-a8aac1d1dd61",
+      "Rank 3"
     ]
   ],
   "text_variables": {}
