@@ -13199,7 +13199,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "02ac2d25-89bf-44be-9d98-125ac33b9b51")
 		(property "Reference" "IC3"
 			(at 431.8 179.07 0)
@@ -14479,7 +14479,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "26fa3673-aa30-465c-bd0a-f6babedf858d")
 		(property "Reference" "C13"
@@ -14498,7 +14498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 417.83 84.1248 0)
 			(effects
 				(font
@@ -14556,7 +14556,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2827aac2-2dba-4db7-aeb3-a0fd32447976")
 		(property "Reference" "IC4"
@@ -14770,7 +14770,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "29c38fb8-c3ac-450d-be66-621c6344200e")
 		(property "Reference" "IC7"
@@ -15068,7 +15068,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "38421848-934c-4155-801b-f383753c852e")
 		(property "Reference" "Q1"
@@ -15633,7 +15633,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "451e18b1-2863-442b-a325-604b24d3dc15")
 		(property "Reference" "IC2"
@@ -16371,7 +16371,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5573b57e-1145-451d-bd5a-2c9d990bc52f")
 		(property "Reference" "Q2"
 			(at 457.2 248.92 0)
@@ -17191,7 +17191,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6092ad63-bd17-4ee4-b4dd-98aff9ed7fcc")
 		(property "Reference" "IC5"
@@ -17638,7 +17638,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "642654fc-0e90-49c5-a3f4-604120532b15")
 		(property "Reference" "C9"
@@ -17659,7 +17659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 313.3852 80.01 0)
 			(effects
 				(font
@@ -18997,7 +18997,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "93cfac78-cf3e-45ac-8160-727c9569ac87")
 		(property "Reference" "S1"
@@ -19817,7 +19817,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a6e2dcbc-e493-419c-9d1d-667592722360")
 		(property "Reference" "C12"
@@ -19836,7 +19836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 434.34 104.4448 0)
 			(effects
 				(font
@@ -19894,7 +19894,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a8b6e6af-05a7-4feb-978a-3b3bb18424a7")
 		(property "Reference" "C10"
@@ -19915,7 +19915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 313.3852 96.52 0)
 			(effects
 				(font
@@ -19973,7 +19973,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ac0af1f6-232c-4edf-b073-e838a020ebd9")
 		(property "Reference" "C3"
@@ -19994,7 +19994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 459.4352 232.41 0)
 			(effects
 				(font
@@ -20118,7 +20118,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ae189b86-e8ba-4778-866b-9a0321b299d8")
 		(property "Reference" "IC1"
 			(at 454.66 308.61 0)
@@ -21926,7 +21926,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ef58d32f-28c2-481b-bff6-2e985bf67cd7")
 		(property "Reference" "IC6"
