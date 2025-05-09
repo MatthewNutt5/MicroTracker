@@ -1,9 +1,9 @@
-/* 
- * mt_setup.h - Header file for MicroTracker boilerplate.
+/*
+ * mt_low.h - Header file for MicroTracker low-level functions.
  */
 
-#ifndef mt_setup_include
-#define mt_setup_include
+#ifndef mt_low_include
+#define mt_low_include
 
 #include <ti/devices/msp/msp.h>
 
@@ -14,11 +14,6 @@ extern "C" {
 #endif
 
 
-
-#define SW1 ((uint32_t) 1 << 31) // PA31
-#define SYNC_B ((uint32_t) 1 << 16) // PA16
-#define SCK ((uint32_t) 1 << 17) // PA17
-#define PICO ((uint32_t) 1 << 18) // PA18
 
 /**
  * @brief   Writes value to specified register - retaining bits unaffected by mask.
@@ -59,45 +54,13 @@ __STATIC_INLINE void update_reg(
  */
 void delay_cycles(uint32_t cycles);
 
-/*
- * @brief Initializes clocks and BOR.
- */
-void InitializeProcessor(void);
-
-/*
- * @brief Initializes GPIOs for SPI, buttons, and bit-banging.
- */
-void InitializeGPIO(void);
-
-/*
- * @brief Initializes Timer TIMG0 into repeated countdown mode, with interrupts.
- */
-void InitializeTimerG0(void);
-
-/*
- * @brief Initializes Timer TIMG6 into repeated countdown mode.
- */
-void InitializeTimerG6(void);
-
-/*
- * @brief Initializes Timer TIMG7 into repeated countdown mode.
- */
-void InitializeTimerG7(void);
-
-/*
- * @brief Initializes SPI1 for output.
- */
-//void InitializeSPI1(void);
-
-void writeDAC(uint16_t message);
-
 
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // mt_setup_include
+#endif // mt_low_include
 
 /*
  *

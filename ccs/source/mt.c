@@ -6,7 +6,7 @@
 #include <stdbool.h>
 #include <limits.h>
 #include <ti/devices/msp/msp.h>
-#include "mt_setup.h"
+#include "mt_init.h"
 
 
 
@@ -15,7 +15,7 @@ uint16_t blankPacketL = 0x1000; // Fill middle 8 bits w/ amplitude
 uint16_t blankPacketR = 0x5000; // "
 
 #define MIDLINE ((uint8_t) 128)
-#define AMP ((int32_t) (INT_MAX / 2) - 1)
+#define AMP ((int32_t) INT_MAX / 2)
 
 // SPI stuff
 //uint16_t *txPacket;
@@ -49,22 +49,16 @@ int main(void)
 {
     InitializeProcessor();
     InitializeGPIO();
-    InitializeTimerG0();
-    InitializeTimerG6();
-    InitializeTimerG7();
+    InitializeTimerInterrupt(TIMG0, 19);
+    InitializeTimerOscillator(TIMG6, 2272);
+    InitializeTimerOscillator(TIMG7, 1893);
+//    InitializeSPI1();
 
     TIMG6_cross = (TIMG6->COUNTERREGS.LOAD + 1) / 2;
     TIMG7_cross = (TIMG7->COUNTERREGS.LOAD + 1) / 2;
-
-//    InitializeSPI1();
-
-    NVIC_EnableIRQ(TIMG0_INT_IRQn); // enable the timer interrupt
-    TIMG0->COUNTERREGS.CTRCTL |= (GPTIMER_CTRCTL_EN_ENABLED);
-    TIMG6->COUNTERREGS.CTRCTL |= (GPTIMER_CTRCTL_EN_ENABLED);
-    TIMG7->COUNTERREGS.CTRCTL |= (GPTIMER_CTRCTL_EN_ENABLED);
-
     next_state = OFF;
 
+    NVIC_EnableIRQ(TIMG0_INT_IRQn); // enable the timer interrupt
     while (1) { // this loop will execute once per TIMG0 interrupt
 
         channel1_bool = (TIMG6->COUNTERREGS.CTR < TIMG6_cross);
