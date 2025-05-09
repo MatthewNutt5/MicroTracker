@@ -1,5 +1,5 @@
 /* 
- * simon_setup.h - Header file for simon project boilerplate
+ * mt_setup.h - Header file for MicroTracker boilerplate.
  */
 
 #ifndef mt_setup_include
@@ -14,6 +14,11 @@ extern "C" {
 #endif
 
 
+
+#define SW1 ((uint32_t) 1 << 31) // PA31
+#define SYNC_B ((uint32_t) 1 << 16) // PA16
+#define SCK ((uint32_t) 1 << 17) // PA17
+#define PICO ((uint32_t) 1 << 18) // PA18
 
 /**
  * @brief   Writes value to specified register - retaining bits unaffected by mask.
@@ -55,24 +60,29 @@ __STATIC_INLINE void update_reg(
 void delay_cycles(uint32_t cycles);
 
 /*
- * @brief Initializes clocks and BOR
+ * @brief Initializes clocks and BOR.
  */
 void InitializeProcessor(void);
 
 /*
- * @brief Initializes GPIOs for SPI and buttons
+ * @brief Initializes GPIOs for SPI, buttons, and bit-banging.
  */
 void InitializeGPIO(void);
 
-#define SW1 ((uint32_t) 1 << 31) // PA31
-#define SYNC_B ((uint32_t) 1 << 16) // PA16
-#define SCK ((uint32_t) 1 << 17) // PA17
-#define PICO ((uint32_t) 1 << 18) // PA18
-
 /*
- * @brief Initializes Timer TIMG0 into repeated countdown mode. Does not initialize LOAD register!
+ * @brief Initializes Timer TIMG0 into repeated countdown mode, with interrupts.
  */
 void InitializeTimerG0(void);
+
+/*
+ * @brief Initializes Timer TIMG6 into repeated countdown mode.
+ */
+void InitializeTimerG6(void);
+
+/*
+ * @brief Initializes Timer TIMG7 into repeated countdown mode.
+ */
+void InitializeTimerG7(void);
 
 /*
  * @brief Initializes SPI1 for output.
